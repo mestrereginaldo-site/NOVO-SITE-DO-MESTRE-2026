@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mystic-900: #080808;
+  --color-mystic-500: #4E1C50;
+  --color-teal-400: #006F87;
+  --color-gold-500: #D9B648;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-mystic-900);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
