@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
-@theme {
-  --color-mystic-900: #080808;
-  --color-gold-500: #D9B648;
+:root {
+  --background: #080808;
+  --foreground: #ffffff;
 }
 
 body {
-  background: #080808;
-  color: white;
+  background: var(--background);
+  color: var(--foreground);
 }
