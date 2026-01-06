@@ -1,14 +1,17 @@
 import './globals.css';
+import { Inter } from 'next/font/google';
+
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Mestre Reginaldo | Axé da Bahia',
-  description: 'Amarração Amorosa e Limpeza Espiritual em Brasil e Portugal.',
+  title: 'Mestre Reginaldo | O Verdadeiro Axé da Bahia',
+  description: 'Amarração Amorosa, Limpeza e Proteção Espiritual. Atendimento 24h para Brasil e Portugal.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="pt-BR">
-      <body>{children}</body>
+    <html lang="pt-BR" className="dark">
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
