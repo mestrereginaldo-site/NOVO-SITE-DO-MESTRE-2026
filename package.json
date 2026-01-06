@@ -6,9 +6,11 @@
     "react": "$react",
     "react-dom": "$react-dom"
   },
-  "scripts": {... },
-  "dependencies": {... }
-}
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
     "next": "15.0.0",
     "react": "19.0.0",
